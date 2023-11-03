@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Inventory_1698993903273-pr-trigger-input-set
+  identifier: Build_Inventory_1698993903273prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: SampleAppServices
+  pipeline:
+    identifier: Build_Inventory_1698993903273
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
