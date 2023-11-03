@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Inventory_1698993903273-push-trigger-input-set
+  identifier: Build_Inventory_1698993903273pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: SampleAppServices
+  pipeline:
+    identifier: Build_Inventory_1698993903273
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
